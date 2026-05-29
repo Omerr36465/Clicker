@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    >
-    <uses-permission android:name="android.permission.INTERNET" />
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Required for accessibility service automation -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
     <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
@@ -34,7 +33,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Accessibility Service for shift booking automation -->
         <service
             android:name=".service.ShiftAccessibilityService"
             android:exported="true"
@@ -47,7 +45,6 @@
                 android:resource="@xml/accessibility_service_config" />
         </service>
 
-        <!-- Foreground service for automation -->
         <service
             android:name=".service.BookingForegroundService"
             android:exported="false"
