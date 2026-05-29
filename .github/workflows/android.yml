@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '21' # تم التحديث إلى 21 ليتوافق مع إصدار Gradle الحديث
+          java-version: '21' # تحديث جافا ليتوافق مع Gradle 9+
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
