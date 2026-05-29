@@ -15,13 +15,15 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '17' # سنعيده إلى 17 ليتوافق مع Gradle 8.5 المستقر
+          java-version: '17'
 
-      - name: Setup Gradle
+      # إجبار السيرفر بشكل صارم على تحميل وإعداد نسخة جرادل 8.7 المستقرة والتوافقية
+      - name: Setup Gradle 8.7
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.5' # هنا أجبرنا السيرفر على إصدار مستقر ومتوافق مع معظم مشاريع أندرويد
+          gradle-version: '8.7'
 
+      # تشغيل البناء مباشرة عبر النسخة المثبتة 8.7
       - name: Build with Gradle
         run: gradle assembleDebug
 
