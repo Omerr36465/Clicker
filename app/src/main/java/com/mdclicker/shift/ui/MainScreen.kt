@@ -181,7 +181,7 @@ fun MainScreen(
                         todayShifts.forEach { shift ->
                             ShiftRow(shift)
                             if (shift != todayShifts.last()) {
-                                HorizontalDivider(modifier = Modifier.padding(vertical = 4.dp))
+                                Divider(modifier = Modifier.padding(vertical = 4.dp))
                             }
                         }
                     }
