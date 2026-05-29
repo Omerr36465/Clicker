@@ -137,14 +137,14 @@ fun SettingsScreen(
                         onStartChange = { shift1Start = it },
                         onEndChange = { shift1End = it }
                     )
-                    HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
+                    Divider(modifier = Modifier.padding(vertical = 8.dp))
 
                     // Shift 2
                     ShiftTimeRow("النوبة 2", shift2Start, shift2End,
                         onStartChange = { shift2Start = it },
                         onEndChange = { shift2End = it }
                     )
-                    HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
+                    Divider(modifier = Modifier.padding(vertical = 8.dp))
 
                     // Shift 3
                     ShiftTimeRow("النوبة 3", shift3Start, shift3End,
