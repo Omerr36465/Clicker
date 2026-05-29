@@ -15,10 +15,12 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '21' # تحديث جافا ليتوافق مع Gradle 9+
+          java-version: '17' # سنعيده إلى 17 ليتوافق مع Gradle 8.5 المستقر
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.5' # هنا أجبرنا السيرفر على إصدار مستقر ومتوافق مع معظم مشاريع أندرويد
 
       - name: Build with Gradle
         run: gradle assembleDebug
