@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MD Clicker Shift Booking</string>
+    
+    <!-- Login -->
+    <string name="login_title">MD Clicker Shift</string>
+    <string name="email_label">البريد الإلكتروني</string>
+    <string name="password_label">كلمة المرور</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="register_button">إنشاء حساب</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="license_key_hint">مفتاح الترخيص</string>
+    <string name="seller_code_hint">كود البائع</string>
+    <string name="device_id_hint">معرف الجهاز</string>
+    
+    <!-- Main Screen -->
+    <string name="start_automation">بدء التشغيل الآلي</string>
+    <string name="stop_automation">إيقاف التشغيل</string>
+    <string name="settings">الإعدادات</string>
+    <string name="status_running">يعمل…</string>
+    <string name="status_stopped">متوقف</string>
+    <string name="shifts_today">نوبات اليوم</string>
+    <string name="booked_shifts">النوبات المحجوزة</string>
+    
+    <!-- Settings -->
+    <string name="app_settings">إعدادات التطبيق</string>
+    <string name="shift_timing">توقيت النوبات</string>
+    <string name="shift1_start">بداية النوبة 1</string>
+    <string name="shift1_end">نهاية النوبة 1</string>
+    <string name="shift2_start">بداية النوبة 2</string>
+    <string name="shift2_end">نهاية النوبة 2</string>
+    <string name="shift3_start">بداية النوبة 3</string>
+    <string name="shift3_end">نهاية النوبة 3</string>
+    <string name="save_settings">حفظ الإعدادات</string>
+    <string name="reset_settings">إعادة تعيين</string>
+    
+    <!-- License -->
+    <string name="license_info">معلومات الترخيص</string>
+    <string name="license_key">مفتاح الترخيص</string>
+    <string name="license_status">حالة الترخيص</string>
+    <string name="license_valid">ساري</string>
+    <string name="license_invalid">غير ساري</string>
+    <string name="license_expired">منتهي الصلاحية</string>
+    
+    <!-- General -->
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="confirm">تأكيد</string>
+    <string name="loading">جار التحميل…</string>
+    <string name="error">خطأ</string>
+    <string name="success">تم بنجاح</string>
+    <string name="no_internet_required">يعمل بدون إنترنت</string>
+    
+    <!-- Automation Status -->
+    <string name="waiting_for_screen">في انتظار الشاشة…</string>
+    <string name="detecting_shifts">جار الكشف عن النوبات…</string>
+    <string name="booking_shift">جار حجز النوبة…</string>
+    <string name="shift_booked">تم حجز النوبة!</string>
+    <string name="booking_failed">فشل الحجز</string>
+    
+    <!-- Panel -->
+    <string name="panel_settings">إعدادات اللوحة</string>
+    <string name="admin_panel">لوحة الإدارة</string>
+    <string name="subscriber_id">معرف المشترك</string>
+    <string name="session_id">معرف الجلسة</string>
+
+    <!-- Offline banner -->
+    <string name="offline_mode">وضع عدم الاتصال</string>
+    <string name="data_stored_locally">جميع البيانات مخزنة محلياً</string>
+</resources>

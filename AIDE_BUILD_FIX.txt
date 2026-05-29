@@ -1,0 +1,22 @@
+
+# Fix AIDE Build Error
+
+Problem:
+server is running...
+bash: ./gradlew: No such file or directory
+
+Reason:
+The project did not contain Gradle Wrapper files.
+
+Added:
+- gradlew
+- gradlew.bat
+- gradle/wrapper/gradle-wrapper.properties
+
+How to build:
+1. Open project in AIDE or Android Studio
+2. Sync Gradle
+3. Build APK
+
+Recommended:
+Use Android Studio for stable release builds.
