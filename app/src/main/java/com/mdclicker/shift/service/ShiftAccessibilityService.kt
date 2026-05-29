@@ -103,7 +103,7 @@ class ShiftAccessibilityService : AccessibilityService() {
 
         if (!keyword) return false
 
-        val numbers = Regex("(\d+)")
+        val numbers = Regex("(\\d+)")
             .findAll(text)
             .mapNotNull {
                 it.groupValues[1].toIntOrNull()
